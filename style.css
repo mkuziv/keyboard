@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrapper {
+  background: yellowgreen;
+  width: 100%;
+}
+.content {
+  margin: 0 auto;
+  padding: 50px ;
+  background: mediumturquoise;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.keyboard {
+  width: 687px;
+  background: cyan;
+  margin-top: 100px;
+  margin-bottom: 30px;  
+}
+.key-btn {
+  margin: 5px;
+  width: 39px;
+  height: 30px;
+  background: darkcyan;
+  font-size: 14px;
+  color: rgb(19, 243, 86);
+  border: none;
+}
